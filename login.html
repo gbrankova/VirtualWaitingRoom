@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Login for Virtual waiting room </title>
+        <link href="./css/login.css" rel="stylesheet">
+    </head>
+
+<body class="page">
+   
+    <form class="form" name="LoginForm" action=".login.php" onsubmit="return login()" method="post">
+        <fieldset class="fieldset">
+            <div>
+                <p>Вход</p>
+                <img class="image" src="./images/login.png" alt="login">
+            </div>
+            <input class="fields field_hover" type="email" placeholder="Имейл адрес" name="EMail" >
+            <input class="fields field_hover" type="password" placeholder="Парола" name="Password">
+            <input class="button button_hover" type="submit" value="Вход" name="Submit">
+
+            <p>
+                <a href="registration_choice.html">Ако нямате профил натиснете тук, за да се регистрирате. </a>
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

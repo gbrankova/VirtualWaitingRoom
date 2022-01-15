@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Register for Virtual waiting room </title>
+        <link href="./css/registration.css" rel="stylesheet">
+    </head>
+
+<body class="page">
+    
+    <form class="form" name="RegistrationForm" action="/submit.php" onsubmit="return register()" method="post">
+        <fieldset class="fieldset">
+            <div>
+                <p>Регистрация</p>
+                <img src="./images/register2.png" alt="registration" height="150px">
+            </div>
+            <input class="fields field_hover" type="text" placeholder="Име" name="FirstName" >
+            <input class="fields field_hover" type="text" placeholder="Фамилия" name="LastName" >
+            <input class="fields field_hover" type="email" placeholder="Имейл адрес" name="EMail" >
+            <input class="fields field_hover" type="text" placeholder="Факултетен номер" name="FacultyNumber">  
+            <input class="fields field_hover" type="password" placeholder="Парола" name="Password">
+            <input class="button button_hover" type="submit" value="Вход" name="Submit">
+
+            <p>
+                <a href="login.html">Ако вече имате профил натиснете тук. </a>
+            </p>
+        </fieldset>
+    </form>
+
+    
+
+</body>
+
+</html>

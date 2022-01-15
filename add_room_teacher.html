@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Profile </title>
+        <link href="./css/add_room_teacher.css" rel="stylesheet">
+    </head>
+
+<body class="page">
+
+    <header>
+        <nav>
+            <ul>
+                <li ><a href="">Виртуална чакалня</a></li>
+                <li class="right"><a href="#exit">Изход</a></li>
+                <li class="right"><a href="./profile_teacher.html">Профил</a></li>
+                <li class="right"><a href="./rooms_teacher.html">Стаи</a></li>
+                <li class="active"><a href="./add_room_teacher.html">Добави стая</a></li>
+              </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Добавяне на нова стая</h1>
+    
+        <form class="form" name="AddRoom">
+            <fieldset class="fieldset">
+                <div class="image">
+                    <img src="./images/waiting_room2.png" alt="registration" height="150px">
+                </div>
+                <input class="fields field_hover" type="text" placeholder="Име на стаята" name="Name" >
+                <input class="fields field_hover" type="number" placeholder="Време за среща" name="Time" >
+                <input class="fields field_hover" type="number" placeholder="Време за чакане" name="WaitingTime" >
+                <input class="fields field_hover" type="date" placeholder="Дата" name="Date">  
+                <input class="fields field_hover" type="time" placeholder="Начален час" name="StartHour">
+                <input class="button button_hover" type="submit" value="Създай стаята" name="Submit">
+
+            </fieldset>
+        </form>
+
+    </main>
+    
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url(".././images/background3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    background-color: #cbefe5;
+}
+
+.page {
+    color: rgb(51, 55, 56);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 50%;
+    text-align: center;
+}
+
+/* form */
+.form {
+    margin-left: 30%;
+    margin-right:15%;
+    margin-top: 10%;
+    padding: 20pt;
+    width: 40%;
+    text-align: center;
+  }
+
+.fieldset {
+    padding: 25px;
+    margin: 25px, 25px;
+}
+
+.fields, .button {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+  
+.button {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #5F9EA0;
+    color: white;
+    cursor: pointer;
+}
+
+.button_hover:hover {
+background-color: #008080;
+}
+
+a, a:hover{
+    background-color: #026e6e;
+    text-decoration: none;
+}
+
+.div_boarder{
+    width: 60%;
+    margin-left: 30%;
+    margin-right:15%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+.action{
+    margin-top: 10%;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border: 2px solid white;
+    text-align: center;
+
+}
+img{
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
